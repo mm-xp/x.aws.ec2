@@ -10,7 +10,7 @@ done
 
 backupInstances(){
   TODAY=`date +%m-%d-%Y`
-  for yml in /home/xophz/aws/ec2/* 
+  for yml in ./*.yml 
   do
     NAME="$(yml2json $yml '.name')-${TODAY}"
     ID="$(yml2json $yml '.id')"

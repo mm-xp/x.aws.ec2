@@ -1,0 +1,4 @@
+name : DEFAULT NAME OF INSTANCE  
+id: i-INSTANCE-ID
+ip : IP Address 
+key : KEY-PAIR-NAME
